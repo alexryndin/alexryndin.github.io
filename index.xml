@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Alex Ryndin</title>
-    <link>http://alexryndin.me/</link>
-    <description>Recent content on Alex Ryndin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://alexryndin.me/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alex Ryndin</title><link>https://alexryndin.me/</link><description>Recent content on Alex Ryndin</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://alexryndin.me/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://alexryndin.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alexryndin.me/about/</guid><description>&lt;h1 id="welcome"&gt;Welcome!&lt;/h1&gt;
+&lt;p&gt;My name is Alex, and I&amp;rsquo;m Software Engineer, Programmer, Administrator and that one, who loves computers. My current fields of interests are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Haskell&lt;/li&gt;
+&lt;li&gt;Computer Science in general, Category Theory and Alghorithms in particular&lt;/li&gt;
+&lt;li&gt;Linux Administrating&lt;/li&gt;
+&lt;li&gt;Other Computer-related stuff&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
