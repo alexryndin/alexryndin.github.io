@@ -1,0 +1,36 @@
+.redf-runner .redf-toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.redf-runner .redf-status {
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.redf-runner .redf-code {
+  font-family: Menlo, Consolas, Monaco, monospace;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.redf-runner .redf-output-title {
+  font-size: 12px;
+  margin: 6px 0;
+}
+
+.redf-runner .redf-output {
+  background: #0b1f26;
+  color: #d5e8ee;
+  padding: 10px;
+  border-radius: 4px;
+  min-height: 80px;
+}
+
+.redf-runner .redf-hint {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
