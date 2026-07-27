@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Alexander Ryndin</title><link>https://alexryndin.me/post/</link><description>Recent content in Posts on Alexander Ryndin</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://alexryndin.me/post/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Alexander Ryndin</title><link>https://alexryndin.me/post/</link><description>Recent content in Posts on Alexander Ryndin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://alexryndin.me/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Enabling real s2idle suspend on the RG34XX SP with ROCKNIX</title><link>https://alexryndin.me/post/rocknix-rg34xx-sp-s2idle-suspend/</link><pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate><guid>https://alexryndin.me/post/rocknix-rg34xx-sp-s2idle-suspend/</guid><description>&lt;p&gt;I managed to get real Linux suspend working on the Anbernic RG34XX SP running ROCKNIX.&lt;/p&gt;
+&lt;p&gt;By default, ROCKNIX disables hardware suspend on H700 devices and uses its own fake-suspend implementation. The kernel does expose &lt;code&gt;s2idle&lt;/code&gt;, but enabling it directly caused the console to hang during resume.&lt;/p&gt;
+&lt;p&gt;The problem turned out to be asynchronous device power management. Disabling it allows the kernel to complete suspend and resume normally.&lt;/p&gt;
+&lt;h2 id="tested-configuration"&gt;Tested configuration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Anbernic RG34XX SP&lt;/li&gt;
+&lt;li&gt;Allwinner H700&lt;/li&gt;
+&lt;li&gt;ROCKNIX&lt;/li&gt;
+&lt;li&gt;Linux kernel &lt;code&gt;7.0.11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ROCKNIX build from July 1, 2026&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This may also work on other H700 devices, but I have only tested it on the RG34XX SP.&lt;/p&gt;</description></item></channel></rss>
